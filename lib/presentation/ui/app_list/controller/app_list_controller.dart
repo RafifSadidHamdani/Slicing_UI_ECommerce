@@ -27,23 +27,13 @@ class AppListController extends State<AppListView> {
   Widget build(BuildContext context) => widget.build(context, this);
 
   List apps = [
+
     {
-      "label": "Food Delivery",
-      "icon": Icons.food_bank,
-      "page": const FdMainNavigationView(),
-      "theme": getFoodDeliveryTheme(),
-    },
-    {
-      "label": "EMoney",
+      "label": "ECommerce",
       "icon": Icons.wallet,
       "page": const EmMainNavigationView(),
       "theme": getEMoneyTheme(),
     },
-    {
-      "label": "Travel",
-      "icon": Icons.flight,
-      "page": const TvMainNavigationView(),
-      "theme": getTravelTheme(),
-    },
+
   ];
 }
